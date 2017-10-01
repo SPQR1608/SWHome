@@ -1,0 +1,61 @@
+#bed{
+    margin-right: 20px;
+    opacity: 0.4;
+    position: relative;
+    border-radius: 30px;
+    text-align: center;
+}
+#kitch{
+    position: relative;
+    opacity: 0.4;
+}
+#detsc{
+    position: relative;
+    opacity: 0.4;
+    margin-right: 20px;
+}
+#kitch:hover{
+    opacity: 1;
+}
+#bed:hover{
+     opacity: 1;
+ }
+#detsc:hover{
+    opacity: 1;
+}
+.vidsp{
+    text-align: center;
+}
+#bedtxt{
+    font-size: 60px;
+    color: rgba(255, 250, 250, 0.98);
+    font-family: Comic Sans, Comic Sans MS, cursive;
+    position: absolute;
+    background-color: #000000;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 120px;
+}
+#kitchtxt{
+    font-size: 60px;
+    color: rgba(255, 250, 250, 0.98);
+    font-family: Comic Sans, Comic Sans MS, cursive;
+    position: absolute;
+    background-color: #000000;
+    border-radius: 20px;
+    margin-left: 70px;
+    margin-top: 120px;
+}
+
+#detsctxt{
+    font-size: 60px;
+    color: rgba(255, 250, 250, 0.98);
+    font-family: Comic Sans, Comic Sans MS, cursive;
+    position: absolute;
+    background-color: #000000;
+    border-radius: 20px;
+    margin-left: 35px;
+    margin-top: 120px;
+}
+
+

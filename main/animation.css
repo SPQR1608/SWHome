@@ -1,0 +1,89 @@
+.animated {
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.shift:after {
+  width: 0;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@-moz-keyframes shift_left {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 642px;
+  }
+}
+@keyframes shift_left {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 642px;
+  }
+}
+@-webkit-keyframes shift_left {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 642px;
+  }
+}
+.animated .shift.shift_left:after {
+  -webkit-animation-name: shift_left;
+  -moz-animation-name: shift_left;
+  animation-name: shift_left;
+  -webkit-animation-duration: .9s;
+  -moz-animation-duration: .9s;
+  animation-duration: .9s;
+}
+@-moz-keyframes shift_right {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 642px;
+  }
+}
+@keyframes shift_right {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 642px;
+  }
+}
+@-webkit-keyframes shift_right {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 642px;
+  }
+}
+.animated .shift.shift_right:after {
+  -webkit-animation-name: shift_right;
+  -moz-animation-name: shift_right;
+  animation-name: shift_right;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1s;
+}
+.fade {
+  opacity: 0;
+  -webkit-transition: opacity 0.5s ease 0.8s;
+  -moz-transition: opacity 0.5s ease 0.8s;
+  transition: opacity 0.5s ease 0.8s;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.animated .fade {
+  opacity: 1;
+}
+
+/*# sourceMappingURL=../src/maps/animation.css.map */
